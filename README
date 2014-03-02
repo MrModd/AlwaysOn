@@ -1,0 +1,32 @@
+Always On version 1.0
+Copyright (C) 2011  Federico "MrModd" Cosentino (http://mrmodd.it/)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+// -----------------------------------------------------------------//
+
+Always On keep active the screen and inhibit the suspend mode simulating
+a key pressure from the keyboard.
+You can set which key to press and save your settings for a further
+execution of the program.
+
+You can execute the program by command line using the following
+syntax (for unix based system):
+java -jar <JAR PACKAGE> [OPTIONS]
+
+Use -h option for a list of all available options.
+
+Settings will be saved on a file in the same directory from which you
+called the program. Ensure that the directory is writable before you
+try to save and exit from the program.
